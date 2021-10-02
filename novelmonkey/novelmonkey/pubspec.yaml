@@ -1,0 +1,148 @@
+name: novelmonkey
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_widget_from_html_core:
+    path: ./flutter_widget_from_html_core_custom/
+  flutter_matrix_html:
+  apple_sign_in: ^0.1.0
+  cached_network_image: ^2.5.0
+  carousel_slider: ^2.3.1
+  cloud_firestore: ^0.14.0+2
+  #  cookie_jar: ^1.0.1
+  dio: ^3.0.10
+  #  dio_cookie_manager: ^1.0.0
+  dio_http_cache: ^0.2.11
+  firebase_analytics: ^6.1.0
+  firebase_auth: ^0.18.2
+  firebase_core: ^0.5.1
+  #  firebase_core: ^0.7.0
+  firebase_crashlytics: ^0.2.2
+  firebase_in_app_messaging: ^0.2.1
+  #  encrypt: ^4.1.0
+  firebase_messaging: ^7.0.3
+  firebase_performance: ^0.4.1
+  firebase_remote_config: ^0.4.3
+  #admob广告
+  firebase_admob: ^0.10.3
+  #  firebase_admob: ^0.11.0+1
+  #  flutter_facebook_login: ^3.0.0
+  flutter_login_facebook: ^0.4.2+3
+  facebook_app_events: ^0.8.2
+  flutter_hooks: ^0.15.0
+  flutter_launcher_icons: ^0.8.1
+  get: ^3.24.0
+  google_sign_in: ^4.5.9
+  gradient_text: ^1.0.2
+  html: ^0.14.0+3
+  in_app_purchase: ^0.3.4+14
+  intl: ^0.16.1
+  let_log: ^1.1.4
+  loading_overlay: ^0.2.1
+  material_floating_search_bar: ^0.2.6
+  path_provider: ^1.6.27
+  provider: ^4.3.2+2
+  shared_preferences: ^0.5.12
+  shimmer: ^1.1.2
+  smooth_star_rating: ^1.1.1
+  url_launcher: ^5.7.5
+  velocity_x: ^1.3.1
+  flutter_freshchat: ^1.4.0
+  # 获取设备信息
+  device_info: ^1.0.0
+  #监听网络状态
+  connectivity: ^2.0.2
+  #安装包信息
+  package_info: ^0.4.3+2
+  #下拉刷新 上拉加载更多
+  pull_to_refresh: ^1.6.3
+  # 带默认图片的image组件
+  transparent_image: ^1.0.0
+  #banner控件
+  flutter_swiper: ^1.1.6
+  #数据统计使用
+  appsflyer_sdk: ^6.0.5+3
+  #图片选择器
+#  image_picker: ^0.6.7+21
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.png"
+  adaptive_icon_background: "images/background.png"
+  adaptive_icon_foreground: "images/foreground.png"
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - assets/
+
+  fonts:
+    - family: sf
+      fonts:
+        - asset: fonts/sf-ui-display-thin.otf
+          weight: 100
+        - asset: fonts/sf-ui-display-extraLight.otf
+        #   weight: 200
+        - asset: fonts/sf-ui-display-light.otf
+          weight: 300
+        - asset: fonts/sf-ui-display-regular.otf
+          weight: 400
+        - asset: fonts/sf-ui-display-medium.otf
+          weight: 500
+        - asset: fonts/sf-ui-display-semiBold.otf
+          weight: 600
+        - asset: fonts/sf-ui-display-bold.otf
+          weight: 700
+        - asset: fonts/sf-ui-display-heavy.otf
+          weight: 800
+        - asset: fonts/sf-ui-display-black.otf
+          weight: 900
+    - family: bebas
+      fonts:
+        - asset: fonts/bebas-regular.ttf
+          weight: 400
+    - family: headline
+      fonts:
+        - asset: fonts/headlinea-regular.ttf
+          weight: 400
+    - family: mr
+      fonts:
+        - asset: fonts/Merriweather-Regular.ttf
+          weight: 400

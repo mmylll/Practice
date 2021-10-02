@@ -1,0 +1,53 @@
+北京到上海周五晚上的火车	BOOK_TICKET	user_from:北京	user_to:上海	user_time:周五晚上	cfmd
+买北京到南京明晚的高铁票	BOOK_TICKET	user_from:北京	user_to:南京	user_time:明晚	cfmd
+我要周五北京去天津的动车	BOOK_TICKET	user_time:周五	user_from:北京	user_to:天津	cfmd
+订北京到上海的高铁票，明天上午的	BOOK_TICKET	user_from:北京	cfmd
+要后天下午上海回北京的高铁票	BOOK_TICKET	user_time:后天下午	user_from:上海	user_to:北京	cfmd
+我要去南京的高铁票，明天上午的	BOOK_TICKET	user_to:南京	user_time:明天上午	cfmd
+买去天津的火车票，今晚的	BOOK_TICKET	user_to:天津	user_time:今晚	cfmd
+我要明天上午从北京去上海的高铁票	BOOK_TICKET	user_time:明天上午	user_from:北京	user_to:上海	cfmd
+买周五晚上北京到武汉的卧铺	BOOK_TICKET	user_time:周五晚上	user_from:北京	user_to:武汉	cfmd
+买南京到上海的高铁票	BOOK_TICKET	user_from:南京	user_to:上海	cfmd
+买成都到北京的卧铺	BOOK_TICKET	user_from:成都	user_to:北京	cfmd
+买去石家庄的动车	BOOK_TICKET	user_to:石家庄	cfmd
+买去天津的动车	BOOK_TICKET	user_to:天津	cfmd
+买去秦皇岛的动车，明晚的	BOOK_TICKET	user_to:秦皇岛	user_time:明晚	cfmd
+给我定去哈尔滨的动车	BOOK_TICKET	user_to:哈尔滨	cfmd
+你好	SYS_OTHER	cfmd
+我要去青岛的动车，周五晚上的	BOOK_TICKET	user_to:青岛	user_time:周五晚上	cfmd
+你好，我要去济南的动车	BOOK_TICKET	user_to:济南	cfmd
+你好我回北京的高铁票，今晚的	BOOK_TICKET	user_to:北京	user_time:今晚	cfmd
+请给我出3张今晚去上海的卧铺票	BOOK_TICKET	user_to:上海	cfmd
+我要G81明晚从北京到上海的火车票	BOOK_TICKET	user_trainnumber:G81	user_time:明晚	user_from:北京	user_to:上海	cfmd
+我要6月30日T215北京到淮安的卧铺	BOOK_TICKET	user_time:6月30日	user_trainnumber:T215	user_from:北京	user_to:淮安	cfmd
+我要5月1日从北京去南京的Z61卧铺	BOOK_TICKET	user_time:5月1日	user_from:北京	user_to:南京	cfmd
+我要去南京的高铁票，30号早晨的	BOOK_TICKET	user_to:南京	user_time:30号早晨	cfmd
+我要去西安的高铁票，明早的	BOOK_TICKET	user_to:西安	user_time:明早	cfmd
+我要明晚去呼和浩特的直达卧铺	BOOK_TICKET	user_time:明晚	user_to:呼和浩特	cfmd
+我要去长春的动车票	BOOK_TICKET	user_to:长春	cfmd
+我要31号从淮安回北京的卧铺	BOOK_TICKET	user_time:31号	user_from:淮安	user_to:北京	cfmd
+我要从广州到长沙的卧铺，月底的	BOOK_TICKET	user_from:广州	user_to:长沙	user_time:月底	cfmd
+我要去苏州的动车票	BOOK_TICKET	user_to:苏州	cfmd
+我要去常州的高铁票，一等座	BOOK_TICKET	user_to:常州	cfmd
+我要去杭州的动车票，明早的	BOOK_TICKET	user_to:杭州	user_time:明早	cfmd
+我要周六早晨去杭州的动车票，要一等座	BOOK_TICKET	user_time:周六早晨	user_to:杭州	cfmd
+我要3张去杭州的动车票，明早出发的	BOOK_TICKET	user_to:杭州	user_time:明早	cfmd
+我要29号从杭州回南京的动车票，最好中午出发的	BOOK_TICKET	user_time:29号	user_from:杭州	user_to:南京	cfmd
+我要北京回南京的高铁票，3张，28号中午	BOOK_TICKET	user_from:北京	user_to:南京	user_time:28号中午	cfmd
+我要北京去天津周六中午的城际高铁	BOOK_TICKET	user_to:天津	user_time:周六中午	cfmd
+我要买高铁票	BOOK_TICKET	cfmd
+我要买到郑州的动车票	BOOK_TICKET	user_to:郑州	cfmd
+我要去乌鲁木齐的火车票，卧铺，月底的	BOOK_TICKET	user_to:乌鲁木齐	user_time:月底	cfmd
+我要从这周三哈尔滨回北京的卧铺票	BOOK_TICKET	user_time:这周三	user_from:哈尔滨	user_to:北京	cfmd
+我要下个月3号从北京去济南的火车票	BOOK_TICKET	user_time:下个月3号	user_from:北京	user_to:济南	cfmd
+我要22号从北京到上海的高铁票	BOOK_TICKET	user_time:22号	user_from:北京	user_to:上海	cfmd
+我要周日早晨从天津回北京的动车票	BOOK_TICKET	user_time:周日早晨	user_from:天津	user_to:北京	cfmd
+我要天津到廊坊的动车票	BOOK_TICKET	cfmd
+我要从廊坊到上海的卧铺	BOOK_TICKET	user_from:廊坊	user_to:上海	cfmd
+我要今晚从北京到常州的高铁票	BOOK_TICKET	user_time:今晚	user_from:北京	user_to:常州	cfmd
+我要从常州回北京的高铁票	BOOK_TICKET	user_from:常州	user_to:北京	cfmd
+我要从常州到南京的高铁票，明天中午出发	BOOK_TICKET	user_from:常州	user_to:南京	user_time:明天中午	cfmd
+我要从上海到苏州的高铁票，现在的	BOOK_TICKET	user_from:上海	user_to:苏州	cfmd
+我要去北京的直达卧铺，2张	BOOK_TICKET	user_to:北京	cfmd
+我要从深圳到长沙的硬座票，明早的	BOOK_TICKET	user_from:深圳	user_to:长沙	user_time:明早	cfmd
+我要后天早晨从武汉去郑州的动车	BOOK_TICKET	user_time:后天早晨	user_from:武汉	user_to:郑州	cfmd

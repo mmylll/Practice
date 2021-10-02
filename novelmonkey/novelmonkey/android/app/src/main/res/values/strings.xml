@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NovelMonkey</string>
+
+    <!-- Replace "000000000000" with your Facebook App ID here. -->
+    <string name="facebook_app_id">3487852481439414</string>
+    <string name="fb_login_protocol_scheme">fb3487852481439414</string>
+
+
+    <string name="freshchat_file_provider_authority">novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey.provider</string>
+<!--    <string name="freshchat_file_provider_authority">anybooks.kindle.webnovel.fiction.wattpad.novels.ebooks.read.provider</string>-->
+
+
+
+</resources>

@@ -1,0 +1,52 @@
+今天北京天气如何？	WEATHER	user_time:今天	user_loc:北京	cfmd
+周六北京天气如何？	WEATHER	user_time:周六	user_loc:北京	cfmd
+明天有雨吗	WEATHER	user_time:明天	cfmd
+后天天气怎么样	WEATHER	user_time:后天	cfmd
+明天天津有雨吗？	WEATHER	user_time:明天	user_loc:天津	cfmd
+南京明天有雨吗？	WEATHER	user_loc:南京	user_time:明天	cfmd
+深圳后天天气怎么样？	WEATHER	user_loc:深圳	user_time:后天	cfmd
+北京明天天气	WEATHER	user_loc:北京	user_time:明天	cfmd
+南京周六天气如何	WEATHER	user_loc:南京	user_time:周六	cfmd
+你好	SYS_OTHER	cfmd
+北京5月30日天气怎么样？	WEATHER	user_loc:北京	user_time:5月30日	cfmd
+明天天气怎么样？	WEATHER	user_time:明天	cfmd
+后天乌鲁木齐天气	WEATHER	user_time:后天	user_loc:乌鲁木齐	cfmd
+明天北京天气如何
+郑州明天有雨吗？
+泗阳最近一周有雨吗？	WEATHER	user_loc:泗阳	user_time:最近一周	cfmd
+宿迁最近温度
+南京最近温度
+南京明后天有雨吗	WEATHER	user_loc:南京	user_time:明后天	cfmd
+后天无锡气温
+明天苏州天气	WEATHER	user_time:明天	user_loc:苏州	cfmd
+海南现在温度
+曼谷现在温度
+普吉岛现在气温
+巴厘岛明天有雨吗？	WEATHER	user_loc:巴厘岛	user_time:明天	cfmd
+石家庄现在多少度
+北京下周气温如何？
+天津明天有雨吗？	WEATHER	user_loc:天津	user_time:明天	cfmd
+上海后天会下雨吗？	WEATHER	user_loc:上海	user_time:后天	cfmd
+杭州下周会下雨吗？	WEATHER	user_loc:杭州	user_time:下周	cfmd
+周六成都天气
+北京明天有大风吗?
+后天坝上有雨吗？	WEATHER
+后天北京天气怎么样	WEATHER	user_time:后天	user_loc:北京	cfmd
+上海后天有雨吗
+明天天气好不好？	WEATHER
+石家庄今天空气怎么样？
+你好啊
+帮我看看明后两天的天气
+天津最近空气好吗
+南京最近有雾霾吗
+苏州今天下雨了吗
+惠州下雪了吗？
+深圳现在温度多少
+广州今天有雨吗
+中山最近天气如何
+深圳周末有雨吗
+快告诉我未来两天的天气
+呼和浩特有雨吗明天
+坝上草原最近晚上冷吗
+承德最近有雨吗
+重庆最近一周天气

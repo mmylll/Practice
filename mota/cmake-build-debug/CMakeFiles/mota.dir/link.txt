@@ -1,0 +1,3 @@
+"D:\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\mota.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\mota.dir/objects.a @CMakeFiles\mota.dir\objects1.rsp
+D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\mota.dir/objects.a -Wl,--no-whole-archive -o mota.exe -Wl,--out-implib,libmota.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mota.dir\linklibs.rsp

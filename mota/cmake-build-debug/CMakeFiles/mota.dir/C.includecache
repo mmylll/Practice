@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/SelfWork/mota/main.c
+stdlib.h
+-
+graphics.h
+-
+windows.h
+-
+conio.h
+-
+graphics.h
+-
+windows.h
+-
+stdio.h
+-
+

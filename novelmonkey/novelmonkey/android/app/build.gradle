@@ -1,0 +1,202 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new Exception("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('monkey.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+
+android {
+    compileSdkVersion 29
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+//        checkReleaseBuilds false   //打包时有报错也不停止
+//        abortOnError false
+    }
+
+    defaultConfig {
+        //AnyBooks
+//         applicationId "anybooks.kindle.webnovel.fiction.wattpad.novels.ebooks.read"
+        //Monkey
+//        applicationId "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey"
+//        弃用的包名
+//        applicationId "novelmonkey.novela.fiction.kindle.webnovel.wattpad.novels.ebooks.romance"
+
+
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 10203
+        versionName "1.2.3"
+        multiDexEnabled true
+        flavorDimensions "default"
+    }
+
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+        debug {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+        release {
+//            ndk {
+////                abiFilters 'armeabi'
+//                abiFilters 'x86_64'
+//                abiFilters 'armeabi-v7a'
+//                abiFilters 'arm64-v8a'
+//            }
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+//            ndk {
+////                abiFilters 'armeabi'
+//                abiFilters 'x86_64'
+//                abiFilters 'armeabi-v7a'
+//                abiFilters 'arm64-v8a'
+//            }
+            signingConfig signingConfigs.release
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+//        anybooks {
+//            applicationId "anybooks.kindle.webnovel.fiction.wattpad.novels.ebooks.read"
+//            manifestPlaceholders = [
+//                    "app_package_name": "anybooks.kindle.webnovel.fiction.wattpad.novels.ebooks.read",
+//                    "app_name"        : "AnyBooks",
+//                    "app_icon"        : "@mipmap/launcher_icon",
+//                    "admobId"         : "ca-app-pub-9872048022830865~8982168021"
+//            ]
+//        }
+        novelmonkey{
+            applicationId "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey"
+            manifestPlaceholders = [
+                    "app_package_name": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey",
+                    "app_name"        : "NovelMonkey",
+                    "app_icon"        : "@mipmap/launcher_icon_romance",
+                    "admobId"         : "ca-app-pub-9872048022830865~5878111081"
+            ]
+        }
+    }
+    //加上如下代码   编译报错More than one file was found with OS independent path
+    packagingOptions {
+        pickFirst 'META-INF/*'
+        pickFirst 'firebase-ads.properties'
+    }
+    
+}
+
+flutter {
+    source '../..'
+}
+gradle.taskGraph.whenReady {
+    tasks.each { task ->
+        if (task.name.contains("uploadCrashlyticsMappingFile")) {
+            task.enabled = false
+        }
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:multidex:1.0.3'
+
+
+    //引用基础库
+//    implementation project(path: ':ptbase')
+//    implementation project(path: ':ptwebbase')
+
+
+    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+    implementation 'com.google.firebase:firebase-perf'
+
+    implementation "com.github.freshdesk:freshchat-android:3.3.0"
+
+    //facebook 深度链接
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+
+
+
+
+
+
+
+
+
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //网络请求库
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'
+
+    //相册相机选择库    https://github.com/donkingliang/ImageSelector
+    implementation 'com.github.donkingliang:ImageSelector:2.2.0'
+
+    //图片加载库
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    //glide4.11用到的关联库
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+    implementation 'androidx.exifinterface:exifinterface:1.2.0'
+
+    //gif动画
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.6'
+    //json处理库
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    //状态栏管理工具
+    implementation 'com.jaeger.statusbarutil:library:1.5.1'
+    //选择器
+    implementation 'com.contrarywind:Android-PickerView:4.1.8'
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.firebase.firebase-perf'

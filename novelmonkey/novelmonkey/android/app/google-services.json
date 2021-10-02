@@ -1,0 +1,183 @@
+{
+  "project_info": {
+    "project_number": "263600631802",
+    "firebase_url": "https://monkey-955eb.firebaseio.com",
+    "project_id": "monkey-955eb",
+    "storage_bucket": "monkey-955eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263600631802:android:861cfd6cbd8afbc9393e43",
+        "android_client_info": {
+          "package_name": "anybooks.kindle.webnovel.fiction.wattpad.novels.ebooks.read"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263600631802-cnpf3s2e875dtfqudhedb8rn815paiga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anybooks.kindle.webnovel.fiction.wattpad.novels.ebooks.read",
+            "certificate_hash": "4147fab33777899a4580f68d1bd4e99a37fae7eb"
+          }
+        },
+        {
+          "client_id": "263600631802-ntqaqmdi8kibgm1uhffpeoh28l6r056n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anybooks.kindle.webnovel.fiction.wattpad.novels.ebooks.read",
+            "certificate_hash": "6e607b3bb405091c47b093beaf176a21141729b2"
+          }
+        },
+        {
+          "client_id": "263600631802-ta36pr7pken21utr80b4rbhnohnf2nsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswG8KD9XLhl5tERreUZrCpDVMshs2kQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263600631802-olhr51k9nj75vlv4nncc6fja9752ke95.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263600631802-92e3jr73q7m1mqgvflptvjtpgkh6qqrl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.novel.romance"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263600631802:android:7a2b480f39f27e71393e43",
+        "android_client_info": {
+          "package_name": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263600631802-3kdcna42igk5d9lsfhmefgs2jj0nss62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey",
+            "certificate_hash": "6e607b3bb405091c47b093beaf176a21141729b2"
+          }
+        },
+        {
+          "client_id": "263600631802-bqqb2h6js6pi8sgh711lhe5omunjp63c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey",
+            "certificate_hash": "9ac0431bcee2f56bf17202075e6cc30e07a50865"
+          }
+        },
+        {
+          "client_id": "263600631802-nai93g4krlaiml60p64eh00bs027m4s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey",
+            "certificate_hash": "4147fab33777899a4580f68d1bd4e99a37fae7eb"
+          }
+        },
+        {
+          "client_id": "263600631802-nr6lv3fuc870t7imhjhcfsms42m9pmrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.read.novelmonkey",
+            "certificate_hash": "3d0266ceda78b113c6cb4fde36f3b1b88358eb7b"
+          }
+        },
+        {
+          "client_id": "263600631802-ta36pr7pken21utr80b4rbhnohnf2nsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswG8KD9XLhl5tERreUZrCpDVMshs2kQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263600631802-olhr51k9nj75vlv4nncc6fja9752ke95.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263600631802-92e3jr73q7m1mqgvflptvjtpgkh6qqrl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.novel.romance"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263600631802:android:c18c815dbce2b707393e43",
+        "android_client_info": {
+          "package_name": "novelmonkey.novela.fiction.kindle.webnovel.wattpad.novels.ebooks.romance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263600631802-3c37psd56grhgq04s0rahd3umeoa3vdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "novelmonkey.novela.fiction.kindle.webnovel.wattpad.novels.ebooks.romance",
+            "certificate_hash": "4147fab33777899a4580f68d1bd4e99a37fae7eb"
+          }
+        },
+        {
+          "client_id": "263600631802-r82jjolciq839fqr1r942ng49u0kao0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "novelmonkey.novela.fiction.kindle.webnovel.wattpad.novels.ebooks.romance",
+            "certificate_hash": "6e607b3bb405091c47b093beaf176a21141729b2"
+          }
+        },
+        {
+          "client_id": "263600631802-ta36pr7pken21utr80b4rbhnohnf2nsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswG8KD9XLhl5tERreUZrCpDVMshs2kQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263600631802-olhr51k9nj75vlv4nncc6fja9752ke95.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263600631802-92e3jr73q7m1mqgvflptvjtpgkh6qqrl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "novelmonkey.fiction.kindle.webnovel.wattpad.novels.ebooks.novel.romance"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

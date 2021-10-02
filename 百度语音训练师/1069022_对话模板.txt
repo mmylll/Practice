@@ -1,0 +1,4 @@
+TIME_CONSUMING	0.7	[D:user_departure_time][D:user_departure][D:kw_to][D:user_destination][D:user_train_type][D:user_train_num][D:user_seat_type][D:user_ticket_type]#@##0#@##1	1
+REFUND_TICKET	0.7	[D:user_departure_time][D:user_departure][D:kw_to][D:user_destination][D:user_train_type][D:user_train_num][D:user_ticket_type][D:user_seat_type]#@##0#@##1	1
+INQUIRY_PRICE	0.7	[D:user_departure_time][D:user_departure][D:kw_to][D:user_destination][D:user_train_type][D:user_train_num][D:user_seat_type][D:user_ticket_type]#@##0#@##1	1
+BOOK_TICKET	0.7	[D:kw_booking][D:user_departure_time][D:user_departure][D:kw_to][D:user_destination][D:user_train_type][D:user_train_num][D:user_ticket_type][D:user_seat_type]#@##0#@##1	1

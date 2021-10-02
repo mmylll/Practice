@@ -1,0 +1,4 @@
+BOOK_TICKET	0.7	[D:user_time]#@##0#@##0#@@##[D:kw_booking]#@##1#@##1#@@##[D:user_from]#@##2#@##0#@@##[D:kw_to][D:user_to]#@##3#@##0#@@##[D:kw_ticket]#@##4#@##1	1
+BOOK_TICKET	0.5	[D:user_time]#@##0#@##0#@@##[D:kw_booking]#@##0#@##1#@@##[D:user_trainnumber]#@##0#@##0#@@##[D:kw_ticket]#@##0#@##1#@@##[D:kw_seattype]#@##0#@##0	1
+BOOK_TICKET	0.7	[D:kw_booking][D:user_trainnumber][W:0-1][D:kw_ticket]#@##0#@##1	1
+BOOK_TICKET	0.7	[D:kw_booking][D:user_from][D:kw_to][D:user_to][W:0-2][D:kw_ticket]#@##0#@##1	1

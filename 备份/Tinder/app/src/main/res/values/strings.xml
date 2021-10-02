@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tinder</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="register">Register</string>
+    <string name="go_to_login">Go To Login</string>
+    <string name="log_in">Log In</string>
+    <string name="back_to_register">Back To Register</string>
+    <string name="test">测试</string>
+</resources>

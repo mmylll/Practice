@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register"
+    tools:context=".ui.user.LoginActivity">
+
+    <RelativeLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_login_name"
+            android:layout_marginLeft="@dimen/d40"
+            android:layout_marginRight="@dimen/d40"
+            android:layout_marginTop="@dimen/d10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_et_register"
+            android:hint="@string/enter_full_name"
+            android:textColorHint="@color/mmy1"
+            android:textColor="@color/mmy3"
+            android:textSize="@dimen/s15"
+            android:maxLength="30"
+            android:paddingLeft="@dimen/d15">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="@dimen/d40"
+            android:layout_marginRight="@dimen/d40"
+            android:layout_marginTop="@dimen/d15"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/et_login_name"
+            android:background="@drawable/bg_et_register"
+            android:hint="@string/enter_password"
+            android:textColorHint="@color/mmy1"
+            android:textColor="@color/mmy3"
+            android:textSize="@dimen/s15"
+            android:maxLength="30"
+            android:paddingLeft="@dimen/d15">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d50"
+            android:layout_marginLeft="@dimen/d40"
+            android:layout_marginRight="@dimen/d40"
+            android:layout_marginTop="@dimen/d15"
+            android:text="@string/log_in"
+            android:background="@drawable/bg_btn_register_not"
+            android:layout_below="@+id/et_login_password"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false">
+
+        </Button>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_to_register"
+        android:text="@string/back_to_register"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/d80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/SelfWork/C/test6/main.c
+stdio.h
+-
+io.h
+-
+fcntl.h
+-
+sys/types.h
+-
+conio.h
+-
+stdlib.h
+-
+malloc.h
+-
+time.h
+-
+stdio.h
+-
+unistd.h
+-
+

@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.19)
+project(test1)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(test1
+        .idea/.gitignore
+        .idea/workspace.xml
+        hello.c)
